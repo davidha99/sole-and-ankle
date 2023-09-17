@@ -12,18 +12,18 @@ const Header = () => {
     <header>
       <SuperHeader />
       <MainHeader>
-      <Side>
-        <Logo />
-      </Side>
-      <Nav>
-        <NavLink href="/sale">Sale</NavLink>
-        <NavLink href="/new">New&nbsp;Releases</NavLink>
-        <NavLink href="/men">Men</NavLink>
-        <NavLink href="/women">Women</NavLink>
-        <NavLink href="/kids">Kids</NavLink>
-        <NavLink href="/collections">Collections</NavLink>
-      </Nav>
-      <Side />
+        <Side>
+          <Logo />
+        </Side>
+        <Nav>
+          <NavLink href="/sale">Sale</NavLink>
+          <NavLink href="/new">New&nbsp;Releases</NavLink>
+          <NavLink href="/men">Men</NavLink>
+          <NavLink href="/women">Women</NavLink>
+          <NavLink href="/kids">Kids</NavLink>
+          <NavLink href="/collections">Collections</NavLink>
+        </Nav>
+        <Side />
       </MainHeader>
     </header>
   );
